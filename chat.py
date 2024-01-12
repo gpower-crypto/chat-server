@@ -5,8 +5,8 @@ from langchain.embeddings import HuggingFaceInferenceAPIEmbeddings
 from anthropic import Anthropic, HUMAN_PROMPT, AI_PROMPT
 
 # Replace these values with your actual API keys
-HF_API_TOKEN = "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"
-CLAUDE_API_KEY = "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"
+HF_API_TOKEN = "####"
+CLAUDE_API_KEY = "####"
 
 embedder = HuggingFaceInferenceAPIEmbeddings(
     api_key=HF_API_TOKEN, model_name="sentence-transformers/all-MiniLM-l6-v2"
